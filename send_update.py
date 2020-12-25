@@ -13,7 +13,7 @@ contentWrapper = '''<div style="background-color:transparent;"><div class="block
 800px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; background-color: #ffffff;"> <div style="width:100% !important;"><div style="
 border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px;
 padding-bottom:5px; padding-right: 15px; padding-left: 10px;"><div style="color:#6c6c6c;font-family:Ubuntu, Tahoma, Verdana, Segoe, sans-serif;line-height:1.5;
-padding-top:0px;padding-right:10px;padding-bottom:5px;padding-left:10px;"><div style="line-height: 1.5; font-size: 12px; color: #6c6c6c; font-family: Ubuntu, 
+padding-top:0px;padding-right:10px;padding-bottom:5px;padding-left:10px;"><div style="line-height: 1.5; font-size: 14px; color: #6c6c6c; font-family: Ubuntu, 
 Tahoma, Verdana, Segoe, sans-serif; mso-line-height-alt: 18px;">CONTENT_TOKEN</div></div></div></div></div></div>'''
 
 splitLine = '''<div style="background-color:transparent;"><div class="block-grid" style="Margin: 0 auto; min-width: 320px; max-width: 800px; overflow-wrap: 

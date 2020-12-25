@@ -1,7 +1,6 @@
 name: SEND UPDATE
 
 on:
-  push:
   schedule:
     - cron: '0 0 * * 1'
 
