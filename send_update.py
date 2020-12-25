@@ -2,6 +2,7 @@ import pathlib
 import json
 import requests
 import bs4
+import html5lib
 import smtplib
 import sys
 from email.header import Header
