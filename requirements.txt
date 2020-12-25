@@ -1,0 +1,7 @@
+pathlib
+json
+requests
+bs4
+smtplib
+sys
+email
