@@ -46,8 +46,8 @@ def fetchIACR(templatePage, keywords):
     templatePage = templatePage.replace('<!--KEYWORDS-TOKEN-->', ", ".join(keywords))
     return templatePage
 
-def sendMail(receiver, username, password):
-    page = open(root / 'target.html', 'r', encoding='utf-8')
+def sendMail(targetfile, receiver, username, password):
+    page = open(targetfile, 'r', encoding='utf-8')
 
     msg = MIMEMultipart()
     mail_body = MIMEText(page.read(), _subtype='html', _charset='utf-8')
@@ -88,7 +88,7 @@ def main():
         templateHTML.close()
         target.close()
 
-        sendMail(user["receiver"], sys.argv[1], sys.argv[2])
+        sendMail(root / "target.html", user["receiver"], sys.argv[1], sys.argv[2])
         
 if __name__ == "__main__":
     main()
